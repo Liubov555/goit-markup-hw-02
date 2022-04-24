@@ -6,32 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Горизонтальне меню-->
-    <header>
+    <header class="page-header">
         <nav>
-            <a href="/">
-                WebStudio
+            <a href="/" class="logo">
+                <span class="logo-accent">Web</span>Studio
             </a>
 
-            <ul>
+            <ul class="site-nav">
                 <li>
-                    <a href="#Studio">
+                    <a href="#Studio" class="link current">
                         Студия
                     </a>
                 </li>
 
                 <li>
-                    <a href="/portfolio.html">
+                    <a href="/portfolio.html" class="link">
                         Портфолио
                     </a>
                 </li>
 
                 <li>
-                    <a href="#Contacts">
+                    <a href="#Contacts" class="link">
                         Контакты
                     </a>
                 </li>
@@ -49,16 +55,16 @@
     </header>
     <main>
         <!--Банер-->
-        <section>
-            <h1>
+        <section class="hero">
+            <h1 class="hero-title">
                 Эффективные решения <br />для вашего бизнеса
             </h1>
             <button type="button">Заказать услугу</button>
 
         </section>
         <!--Переваги-->
-        <section>
-            <h2>Наши особенности</h2>
+        <section class="section">
+            <h2 class="section-title">Наши особенности</h2>
             <ul>
                 <li>
                     <h3>
@@ -98,9 +104,9 @@
 
             </ul>
         </section>
-        <!--Фото / що ми робимо-->
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <!--Послуги-->
+        <section class="section">
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <img src="./img/pk1.jpg" alt="Человек пишет код" width="370">
@@ -115,8 +121,8 @@
 
         </section>
         <!--Наша команда-->
-        <section>
-            <h2>Наша команда</h2>
+        <section class="section">
+            <h2 class="section-title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./img/man1.jpg" alt="Юноша" width="270">

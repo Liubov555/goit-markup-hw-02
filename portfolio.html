@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Горизонтальне меню-->
-    <header>
+    <header class="page-header">
         <nav>
             <a href="/">
                 WebStudio
@@ -25,7 +30,7 @@
                 </li>
 
                 <li>
-                    <a href="/portfolio.html">
+                    <a href="/portfolio.html" class="link current">
                         Портфолио
                     </a>
                 </li>
@@ -48,70 +53,97 @@
         </ul>
     </header>
     <main>
-        <ul>
-            <li>
-                <button type="button">Все</button>
-            </li>
-            <li>
-                <button type="button">Веб-сайты</button>
-            </li>
-            <li>
-                <button type="button">Приложения</button>
-            </li>
-            <li>
-                <button type="button">Дизайн</button>
-            </li>
-            <li>
-                <button type="button">Маркетинг</button>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <img src="./img-portfolio/portfolio_1.jpg" alt="экран ноутбука" width="370" height="294">
-                <p>Технокряк</p>
-                <h2>Веб-сайт</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_2.jpg" alt="два баскетболиста с мячем" width="370" height="294">
-                <p>Постер New Orlean vs Golden Star</p>
-                <h2>Дизайн</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_3.jpg" alt="рыба -логотип ресторана" width="370" height="294">
-                <p>Ресторан Seafood</p>
-                <h2>Приложение</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_4.jpg" alt="наушники" width="370" height="294">
-                <p>Проект Prime</p>
-                <h2>Маркетинг</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_5.jpg" alt="две коробочки" width="370" height="294">
-                <p>Проект Boxes</p>
-                <h2>Приложение</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_6.jpg" alt="екран компютера" width="370" height="294">
-                <p lang="en">Inspiration has no Borders</p>
-                <h2>Веб-сайт</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_7.jpg" alt="журнал" width="370" height="294">
-                <p>Издание Limited Edition</p>
-                <h2>Дизайн</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_8.jpg" alt="Лейба" width="370" height="294">
-                <p>Проект LAB</p>
-                <h2>Маркетинг</h2>
-            </li>
-            <li>
-                <img src="./img-portfolio/portfolio_9.jpg" alt="человек печатает на ноутбуке" width="370" height="294">
-                <p lang="en">Growing Business</p>
-                <h2>Приложение</h2>
-            </li>
-        </ul>
+        <section>
+            <h1>Наши работы</h1>
+            <ul class="filter">
+                <li>
+                    <button type="button" class="btn">Все</button>
+                </li>
+                <li>
+                    <button type="button" class="btn">Веб-сайты</button>
+                </li>
+                <li>
+                    <button type="button" class="btn">Приложения</button>
+                </li>
+                <li>
+                    <button type="button" class="btn">Дизайн</button>
+                </li>
+                <li>
+                    <button type="button" class="btn">Маркетинг</button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_1.jpg" alt="экран ноутбука" width="370" height="294">
+                        <h2>Технокряк</h2>
+                        <p>Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_2.jpg" alt="два баскетболиста с мячем" width="370"
+                            height="294">
+                        <h2>Постер New Orlean vs Golden Star</h2>
+                        <p>Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_3.jpg" alt="рыба -логотип ресторана" width="370"
+                            height="294">
+                        <h2>Ресторан Seafood</h2>
+                        <p>Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_4.jpg" alt="наушники" width="370" height="294">
+                        <h2>Проект Prime</h2>
+                        <p>Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_5.jpg" alt="две коробочки" width="370" height="294">
+                        <h2>Проект Boxes</h2>
+                        <p>Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_6.jpg" alt="екран компютера" width="370" height="294">
+                        <h2 lang="en">Inspiration has no Borders</h2>
+                        <p>Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+
+                        <img src="./img-portfolio/portfolio_7.jpg" alt="журнал" width="370" height="294">
+                        <h2>Издание Limited Edition</h2>
+                        <p>Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_8.jpg" alt="Лейба" width="370" height="294">
+                        <h2>Проект LAB</h2>
+                        <p>Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=“”>
+                        <img src="./img-portfolio/portfolio_9.jpg" alt="человек печатает на ноутбуке" width="370"
+                            height="294">
+                        <p lang="en">Growing Business</p>
+                        <h2>Приложение</h2>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
     <!--Підвал сайту-->
     <footer>
