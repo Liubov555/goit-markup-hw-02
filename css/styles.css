@@ -63,6 +63,12 @@ ul {
     color: #2196f3;
 }
 
+.link-nav,
+.contacts,
+.btn {
+    cursor: pointer;
+}
+
 /*Банер*/
 .hero {
     background-color: #2F303A;
