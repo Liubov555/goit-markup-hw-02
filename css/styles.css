@@ -1,5 +1,4 @@
 body {
-    background-color: #E5E5E5;
     color: #212121;
     ;
     font-family: 'Roboto',
@@ -14,10 +13,12 @@ ul {
     list-style: none;
 }
 
+
 /*Горизонтальне меню*/
 .header-page {
     background: #FFFFFF;
 }
+
 
 .logo {
     font-family: 'Raleway';
@@ -80,6 +81,8 @@ ul {
     line-height: 1.36;
     background-color: #2F303A;
     color: #FFFFFF;
+    text-transform: uppercase;
+
 }
 
 .hero .hero-button {
@@ -88,6 +91,7 @@ ul {
     line-height: 1.87;
     background-color: #2196f3;
     color: #FFFFFF;
+    font-family: inherit;
 }
 
 .hero-button:hover,
@@ -97,7 +101,7 @@ ul {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1, 16;
+    line-height: 1.16;
 }
 
 .title-benefits {
@@ -139,6 +143,7 @@ ul {
     font-size: 14px;
     line-height: 1.7;
     color: #FFFFFF;
+    font-style: normal;
 }
 
 .footer-contacts {
@@ -154,7 +159,7 @@ ul {
     line-height: 1.6;
     background: #F5F4FA;
     border-radius: 4px;
-
+    font-family: inherit;
 }
 
 .btn:hover,
